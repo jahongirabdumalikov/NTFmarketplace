@@ -1,0 +1,41 @@
+header{
+    padding: 20px 50px 20px 50px;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            li{
+                a{
+                    color: #FFFFFF;
+                    &:hover{
+                        color: #A259FF;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+
+            button{
+                padding: 10px 30px 10px 30px;
+                border: none;
+                border-radius: 20px;
+                background-color: #A259FF;
+                color: #FFFFFF;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #FFFFFF;
+                    color: #812fec;
+                }
+            }
+        }
+    }
+
+
+}

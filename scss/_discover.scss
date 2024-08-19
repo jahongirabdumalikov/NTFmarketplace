@@ -1,0 +1,43 @@
+.discover{
+    padding: 80px 115px 80px 115px ;
+
+    .discover_wrapper{
+
+
+        .discover_control{
+           display: flex;
+           justify-content: space-between;
+        }
+
+
+        .discover_left{
+            width: 490px;
+
+            h1{
+                color: #fff;
+                font-size: 67px;
+                font-weight: 600;
+            }
+
+            p{
+                font-size: 22px;
+                font-weight: 400;
+                color: #b7b7b7;
+                margin-top: 30px;
+            }
+            
+            button{
+                padding: 15px 50px 15px 50px;
+                border: none;
+                border-radius: 20px;
+                color: #fff;
+                background-color: #A259FF;
+                margin-top: 30px;
+            }
+            .discover_left_and{
+                margin-top: 30px;
+            }
+        }
+
+    }
+}
